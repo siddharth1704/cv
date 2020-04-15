@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Arvo', serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+h1 {
+  margin: 50 auto 0 auto;
+  font-family: 'Parisienne', cursive;
+  font-size: 5.625rem;
+  color: #5b8c5a;
+}
+
+h2 {
+  font-family: 'Bitter', serif;
+  font-size: 2.5rem;
+  color: black;
+}
+
+h3 {
+  font-family: 'Bitter', serif;
+  color: #11999E;
+}
+
+hr {
+  border-style: dotted none none;
+  width:5.5rem;
+  border-width: 10px;
+  border-color: #bbbbbb;
+}
+
+a {
+  color: #11999E;
+}
+
+.mypic{
+  height: 20%;
+  width:20%;
+}
+
+.topbar {
+  background-color: #e1f4f3;
+  padding-top: 100px;
+  position: relative;
+  line-height:1;
+}
+
+.subtitle {
+  font-weight: normal;
+  color:black;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-image1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-image2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.middle-container {
+  background-color: #f1f3f4;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
+}
+
+.bottom-container {
+  background-color: #29a19c;
+  padding: 4.5rem;
+
+}
+
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Arvo', serif;
+   font-size: 20px;
+   font-weight: 200;
+   padding: 10px;
+
+   bg-end-gradient-hover: #8BBABB;
+   background-color: #30475E;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #30475E 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #8BBABB 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.bottomcloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.footer-link:link,.footer-link:visited{
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+}
+
+.footer-link:active,.footer-link:hover{
+  color: black;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.contact-me{
+  line-height: 2;
+}
+
+.navbar{
+  background-color: #4cbbb9;
+  height: 2.625rem;
+  text-align: left;
+  padding: 1rem;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.header-link:visited,.header-link:link{
+  text-decoration: none;
+  color: white;
+  padding-right: 1em;
+}
+
+.header-link:active,.header-link:hover{
+  color: black;
+  text-decoration: none;
+  padding-right: 1em;
+
+}
